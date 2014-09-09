@@ -25,10 +25,23 @@ void draw() {
   // draw stuff
 }
 
+void keyPressed() {
+  // happens when a key is pressed
+}
+
 println("Hello ErrorLog!");
 frameCount();                   // displays the number of frames since beginning
 width, height                   // globally reachable variables for canvas size
+mouseX, mouseY                  // the position of the mouse
+mousePressed                    // the variable stores if the mouse button is pressed
+key                             // stores the latest pressed key
 
 if (conditional) {
   // runs if condition is true
 }
+
+void function_name() {
+  // here comes the function
+}
+
+save("filename.png");           // saves the canvas
