@@ -9,6 +9,10 @@ stroke(x);                      // sets the stroke
   strokeWeight(x);              // sets the weoght of the stroke
 fill(x);                        // sets the fill
   noFill();                     // disables the fill
+smooth();                       // smooths the lines with slope
+
+textSize(n);                    // sets the font size
+text("string", x, y);           // displays a string
 
 colorMode(HSB);                 // sets the color mode from RGB to HSB
 
@@ -20,6 +24,8 @@ void setup() {
     frameRate(n);               // sets the fps
     background(n, alpha);       // 0 .. 255 black to white
 }
+
+rotate(rad);                    // rotates the 
 
 void draw() {
   // draw stuff
@@ -38,6 +44,10 @@ key                             // stores the latest pressed key
 
 if (conditional) {
   // runs if condition is true
+}
+
+while (conditional) {
+  // runs while the condition is true
 }
 
 void function_name() {
