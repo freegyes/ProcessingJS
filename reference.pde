@@ -25,7 +25,9 @@ void setup() {
     background(n, alpha);       // 0 .. 255 black to white
 }
 
-rotate(rad);                    // rotates the 
+rotate(rad);                    // rotates the coordinates
+translate(x,y);                 // sets (0,0) coordinates in a new position
+resetMatrix();                  // resets rotation and translation
 
 void draw() {
   // draw stuff
