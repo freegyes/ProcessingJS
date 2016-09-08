@@ -52,7 +52,7 @@ while (conditional) {
   // runs while the condition is true
 }
 
-void function_name() {
+void function_name(float x, float y) {
   // here comes the function
 }
 
